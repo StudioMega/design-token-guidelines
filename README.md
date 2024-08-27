@@ -258,3 +258,5 @@ Easing reference [(Epiceasing.com)](https://epiceasing.com/).
 - [Token Naming Conventions](https://primer.style/foundations/primitives/token-names#convention-breakdown)
 - [Naming Cheatsheet](https://github.com/kettanaito/naming-cheatsheet)
 - [Naming Guide](https://classnames.paulrobertlloyd.com/)
+- [Tokens, variables, and styles in Figma](https://help.figma.com/hc/en-us/articles/18490793776023-Update-1-Tokens-variables-and-styles)
+- [Awesome Design Tokens](https://github.com/sturobson/Awesome-Design-Tokens?tab=readme-ov-file)
