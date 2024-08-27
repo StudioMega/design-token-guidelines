@@ -2,7 +2,7 @@
 
 Design tokens are standardized, reusable variables that store design decisions, such as colors, fonts, spacing, and other visual elements. These tokens help maintain consistency across a product or design system by ensuring that these elements are applied uniformly across different platforms and devices.
 
-## Table of contents
+## Table Of Contents
 
 - [Why Use Design Tokens?](#why-use-design-tokens)
 - [Colors](#colors)
