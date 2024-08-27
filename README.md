@@ -200,8 +200,6 @@ Font shorthand is a way to define a font size, line height, and font weight usin
 
 ### Ease
 
-- [(Epiceasing.com)](https://epiceasing.com/)
-
 - `ease-in: cubic-bezier(0.25, 0.0, 0.75, 0.25)`
 - `ease-out: cubic-bezier(0.25, 0.75, 0.75, 1.0)`
 - `ease-in-out: cubic-bezier(0.75, 0.25, 0.25, 0.75)`
@@ -211,6 +209,8 @@ Font shorthand is a way to define a font size, line height, and font weight usin
 - `ease-out-circ: cubic-bezier(0.075, 0.82, 0.165, 1.0)`
 - `ease-in-circ: cubic-bezier(0.6, 0.04, 0.98, 0.335)`
 - `ease-in-out-circ: cubic-bezier(0.785, 0.135, 0.15, 0.86)`
+
+Easing reference [(Epiceasing.com)](https://epiceasing.com/).
 
 ### Duration
 
