@@ -2,8 +2,6 @@
 
 Design tokens are standardized, reusable variables that store design decisions, such as colors, fonts, spacing, and other visual elements. These tokens help maintain consistency across a product or design system by ensuring that these elements are applied uniformly across different platforms and devices.
 
----
-
 ## Table of contents
 
 - [Why Use Design Tokens?](#why-use-design-tokens)
@@ -15,8 +13,6 @@ Design tokens are standardized, reusable variables that store design decisions, 
 - [Sizing](#sizing)
 - [Other Stuff](#other-stuff)
 
----
-
 ## Why Use Design Tokens?
 
 - **Consistency:** They ensure a cohesive visual identity by standardizing design elements across different components and platforms.
@@ -24,8 +20,6 @@ Design tokens are standardized, reusable variables that store design decisions, 
 - **Scalability:** As projects grow, design tokens help manage complexity by centralizing design decisions, making it easier to maintain and evolve the design system.
 - **Collaboration:** They bridge the gap between design and development, providing a common language and making it easier for teams to work together.
 - **Adaptability:** Tokens can be adapted to different themes or modes (e.g., light and dark mode) without needing to redesign or recode elements from scratch.
-
----
 
 ## Colors
 
@@ -102,8 +96,6 @@ Design tokens are standardized, reusable variables that store design decisions, 
 - `color-divider`
 - `color-separator`
 
----
-
 ## Fonts
 
 ### Font Family
@@ -170,8 +162,6 @@ Font shorthand is a way to define a font size, line height, and font weight usin
 - `text-button-md` | `text-button`
 - `text-button-lg`
 
----
-
 ## Spacing
 
 - `space-xs`
@@ -183,8 +173,6 @@ Font shorthand is a way to define a font size, line height, and font weight usin
 - `space-3xl`
 - `space-4xl`
 - ...
-
----
 
 ## Sizing
 
@@ -207,8 +195,6 @@ Font shorthand is a way to define a font size, line height, and font weight usin
 - `breakpoint-2xl: 1536px`
 - `breakpoint-3xl: 1782px`
 - ...
-
----
 
 ## Animation
 
@@ -234,8 +220,6 @@ Font shorthand is a way to define a font size, line height, and font weight usin
 - `duration-slow: 0.35s`
 - `duration-slower: 0.45s`
 
----
-
 ## Border
 
 ### Border Radius
@@ -253,8 +237,6 @@ Font shorthand is a way to define a font size, line height, and font weight usin
 - `border-width-thick`
 - ...
 
----
-
 ## Other Stuff
 
 ### Shadows
@@ -266,8 +248,6 @@ Font shorthand is a way to define a font size, line height, and font weight usin
 - `shadow-xl`
 - `shadow-2xl`
 - ...
-
----
 
 ## Notes
 - Possible naming could be "weaker" to "stronger" https://protocol.mozilla.org/docs/fundamentals/color
