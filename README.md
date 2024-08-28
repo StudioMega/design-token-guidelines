@@ -149,7 +149,7 @@ Design tokens are standardized, reusable variables that store design decisions, 
 
 ### Font Shorthand
 
-Font shorthand is a way to define a font size, line height, and font weight using a single token. [(Reference)](https://primer.style/foundations/primitives/typography#font-shorthand)
+Font shorthand is a way to define a font size, line height, and font weight using a single token. ([Reference](https://primer.style/foundations/primitives/typography#font-shorthand))
 
 - `text-body-sm`
 - `text-body-md` | `text-body`
@@ -210,7 +210,7 @@ Font shorthand is a way to define a font size, line height, and font weight usin
 - `ease-in-circ: cubic-bezier(0.6, 0.04, 0.98, 0.335)`
 - `ease-in-out-circ: cubic-bezier(0.785, 0.135, 0.15, 0.86)`
 
-Easing reference [(Epiceasing.com)](https://epiceasing.com/).
+Easing reference ([Epiceasing.com](https://epiceasing.com/)).
 
 ### Duration
 
@@ -250,7 +250,7 @@ Easing reference [(Epiceasing.com)](https://epiceasing.com/).
 - ...
 
 ## Notes
-- Possible naming could be "weaker" to "stronger" https://protocol.mozilla.org/docs/fundamentals/color
+- Possible color naming could be "weaker" to "stronger" https://protocol.mozilla.org/docs/fundamentals/color
 
 ## References
 
