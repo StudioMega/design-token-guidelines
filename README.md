@@ -255,6 +255,7 @@ Easing reference ([Epiceasing.com](https://epiceasing.com/)).
 
 ## Notes
 - Possible color naming could be "weaker" to "stronger" https://protocol.mozilla.org/docs/fundamentals/color
+- Naming opposites "primary" to "inverse"
 
 ## References
 
