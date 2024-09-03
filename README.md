@@ -25,26 +25,48 @@ Design tokens are standardized, reusable variables that store design decisions, 
 
 ### Primitives
 
-- `color-black`
-- `color-white`
-- `color-primary`
-- `color-secondary`
-- `color-tertiary`
-- `color-accent`
-- `color-inverse`
+- `color-black: 0 0% 3.9%`
+- `color-white: 0 0% 98%`
+- `color-gray-100: 0 0% 96.1%`
+- `color-gray-200: 0 0% 89.8%`
+- `color-gray-300: 0 0% 83.1%`
+- `color-gray-400: 0 0% 63.9%`
+- `color-gray-500: 0 0% 45.1%`
+- `color-gray-600: 0 0% 32.2%`
+- `color-gray-700: 0 0% 25.1%`
+- `color-gray-800: 0 0% 14.9%`
+- `color-gray-900: 0 0% 9%`
 
-### Text
+### Brand Primitives
 
-- `color-text-primary`
-- `color-text-secondary`
-- `color-text-tertiary`
-- `color-text-inverse`
-- `color-text-error`
-- `color-text-warning`
-- `color-text-danger`
-- `color-text-success`
-- `color-text-info`
-- `color-text-disabled`
+- `color-red`
+- `color-green`
+- `color-blue`
+- `color-yellow`
+- ...
+
+### Background
+
+- `color-background-primary`
+- `color-background-muted`
+- `color-background-error`
+- `color-background-warning`
+- `color-background-danger`
+- `color-background-success`
+- `color-background-info`
+- `color-background-disabled`
+
+  
+### Foreground (text)
+
+- `color-foreground-primary`
+- `color-foreground-muted`
+- `color-foreground-error`
+- `color-foreground-warning`
+- `color-foreground-danger`
+- `color-foreground-success`
+- `color-foreground-info`
+- `color-foreground-disabled`
 
 ### Link
 
@@ -52,10 +74,10 @@ Design tokens are standardized, reusable variables that store design decisions, 
 - `color-link-primary-hover`
 - `color-link-primary-active`
 - `color-link-primary-visited`
-- `color-link-secondary`
-- `color-link-secondary-hover`
-- `color-link-secondary-active`
-- `color-link-secondary-visited`
+- `color-link-muted`
+- `color-link-muted-hover`
+- `color-link-muted-active`
+- `color-link-muted-visited`
 
 ### Button
 
@@ -63,38 +85,20 @@ Design tokens are standardized, reusable variables that store design decisions, 
 - `color-button-primary-hover`
 - `color-button-primary-active`
 - `color-button-primary-visited`
-- `color-button-secondary`
-- `color-button-secondary-hover`
-- `color-button-secondary-active`
-- `color-button-secondary-visited`
-- `color-button-primary-inverse` 
-- `color-button-primary-inverse-hover`
-- `color-button-primary-inverse-active`
-- `color-button-primary-inverse-visited`
-- `color-button-secondary-inverse`
-- `color-button-secondary-inverse-hover`
-- `color-button-secondary-inverse-active`
-- `color-button-secondary-inverse-visited`
-
-### Background
-
-- `color-background-primary`
-- `color-background-secondary`
-- `color-background-tertiary`
-- `color-background-inverse`
+- `color-button-muted`
+- `color-button-muted-hover`
+- `color-button-muted-active`
+- `color-button-muted-visited`
 
 ### Border
 
 - `color-border-primary`
-- `color-border-secondary`
-- `color-border-tertiary`
-- `color-border-inverse`
+- `color-border-muted`
 
 ### Utility
 
-- `color-focus-outline`
+- `color-focus-ring`
 - `color-divider`
-- `color-separator`
 
 ## Fonts
 
@@ -103,9 +107,9 @@ Design tokens are standardized, reusable variables that store design decisions, 
 - `font-family-sans`
 - `font-family-serif`
 - `font-family-body`
-- `font-family-body-secondary`
+- `font-family-body-muted`
 - `font-family-headings`
-- `font-family-headings-secondary`
+- `font-family-headings-muted`
 
 ### Font Size
 
