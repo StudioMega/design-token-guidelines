@@ -295,9 +295,6 @@ Easing reference ([Epiceasing.com](https://epiceasing.com/)).
 - `shadow-2xl`
 - ...
 
-## Notes
-- Possible color naming could be "weaker" to "stronger" https://protocol.mozilla.org/docs/fundamentals/color
-- Naming opposites "primary" to "inverse"
 
 ## References
 
