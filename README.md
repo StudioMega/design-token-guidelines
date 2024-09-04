@@ -21,9 +21,25 @@ Design tokens are standardized, reusable variables that store design decisions, 
 - **Collaboration:** They bridge the gap between design and development, providing a common language and making it easier for teams to work together.
 - **Adaptability:** Tokens can be adapted to different themes or modes (e.g., light and dark mode) without needing to redesign or recode elements from scratch.
 
+## Design Token Naming
+
+Design tokens should have intuitive and descriptive names that clearly indicate their purpose. To ensure consistency and clarity, we follow these naming guidelines:
+
+- **Naming Structure:** Use the format `{category}-{role}-{variant}-{modifier}`.
+- **Category:** Always include a category, such as `color`, `space`, `font`, or `button`.
+- **Role:** Define the role, such as `background`, `size`, or `radius`.
+- **Variant:** Optionally include a variant, such as `muted`, `inverse`, or `error`.
+- **Modifier:** Optionally include a state modifier, like `hover`, `active`, or `focus`.
+
+### Examples
+
+- `color-black`
+- `button-background-muted-hover`
+- `font-size-lg`
+
 ## Colors
 
-### Primitives
+### Primitive Colors
 
 - `color-black: 0 0% 3.9%`
 - `color-white: 0 0% 98%`
@@ -37,7 +53,7 @@ Design tokens are standardized, reusable variables that store design decisions, 
 - `color-gray-800: 0 0% 14.9%`
 - `color-gray-900: 0 0% 9%`
 
-### Brand Primitives
+### Brand Colors
 
 - `color-red`
 - `color-green`
@@ -47,58 +63,80 @@ Design tokens are standardized, reusable variables that store design decisions, 
 
 ### Background
 
-- `color-background-primary`
-- `color-background-muted`
-- `color-background-error`
-- `color-background-warning`
-- `color-background-danger`
-- `color-background-success`
-- `color-background-info`
-- `color-background-disabled`
+Pages, sections, elements and other background elements.
+
+- `background`
+- `background-muted`
+- `background-inverse`
+- `background-error`
+- `background-warning`
+- `background-danger`
+- `background-success`
+- `background-info`
+- `background-disabled`
 
   
-### Foreground (text)
+### Foreground
 
-- `color-foreground-primary`
-- `color-foreground-muted`
-- `color-foreground-error`
-- `color-foreground-warning`
-- `color-foreground-danger`
-- `color-foreground-success`
-- `color-foreground-info`
-- `color-foreground-disabled`
+Text, borders, cards and other foreground elements.
+
+- `foreground`
+- `foreground-muted`
+- `foreground-inverse`
+- `foreground-error`
+- `foreground-warning`
+- `foreground-danger`
+- `foreground-success`
+- `foreground-info`
+- `foreground-disabled`
 
 ### Link
 
-- `color-link-primary`
-- `color-link-primary-hover`
-- `color-link-primary-active`
-- `color-link-primary-visited`
-- `color-link-muted`
-- `color-link-muted-hover`
-- `color-link-muted-active`
-- `color-link-muted-visited`
+- `link-color`
+- `link-color-hover`
+- `link-color-active`
+- `link-color-visited`
+- `link-color-muted`
+- `link-color-hover-muted`
+- `link-color-active-muted`
+- `link-color-visited-muted`
 
 ### Button
 
-- `color-button-primary`
-- `color-button-primary-hover`
-- `color-button-primary-active`
-- `color-button-primary-visited`
-- `color-button-muted`
-- `color-button-muted-hover`
-- `color-button-muted-active`
-- `color-button-muted-visited`
+- `button-background`
+- `button-text`
+- `button-border`
+- `button-background-hover`
+- `button-text-hover`
+- `button-border-hover`
+- `button-background-active`
+- `button-text-active`
+- `button-border-active`
+- `button-background-visited`
+- `button-text-visited`
+- `button-border-visited`
+- `button-background-muted`
+- `button-text-muted`
+- `button-border-muted`
+- `button-background-muted-hover`
+- `button-text-muted-hover`
+- `button-border-muted-hover`
+- `button-background-muted-active`
+- `button-text-muted-active`
+- `button-border-muted-active`
+- `button-background-muted-visited`
+- `button-text-muted-visited`
+- `button-border-muted-visited`
 
 ### Border
 
-- `color-border-primary`
-- `color-border-muted`
+- `border-color`
+- `border-color-muted`
 
 ### Utility
 
-- `color-focus-ring`
-- `color-divider`
+- `focus-ring-color`
+- `divider-color`
 
 ## Fonts
 
@@ -106,10 +144,13 @@ Design tokens are standardized, reusable variables that store design decisions, 
 
 - `font-family-sans`
 - `font-family-serif`
-- `font-family-body`
-- `font-family-body-muted`
-- `font-family-headings`
-- `font-family-headings-muted`
+
+### Fonts
+
+- `body-font`
+- `body-font-muted`
+- `headings-font`
+- `headings-font-muted`
 
 ### Font Size
 
