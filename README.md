@@ -5,6 +5,7 @@ Design tokens are standardized, reusable variables that store design decisions, 
 ## Table Of Contents
 
 - [Why Use Design Tokens?](#why-use-design-tokens)
+- [Design Token Naming](#design-token-naming)
 - [Colors](#colors)
 - [Fonts](#fonts)
 - [Spacing](#spacing)
