@@ -38,9 +38,31 @@ Design tokens should have intuitive and descriptive names that clearly indicate 
 - `button-background-muted-hover`
 - `font-size-lg`
 
+## Design Token Usage
+
+Not all design tokens will be necessary for every project, and you may need to introduce new ones. That's perfectly fine—just ensure that any additions adhere to the established naming conventions outlined above.
+
 ## Colors
 
 ### Primitive Colors
+
+Primitive color tokens should correspond to either standard or brand colors. To enhance design flexibility, consider adding tints and shades, such as `color-primary-light`, `color-primary-dark`, and similar variants.
+
+- `color-primary`
+- `color-secondary`
+- `color-accent`
+- `color-muted`
+- `color-inverse`
+- `color-error`
+- `color-warning`
+- `color-danger`
+- `color-success`
+- `color-info`
+- `color-disabled`
+
+### Standard Colors
+
+These colors are typically used in all projects and can be adjusted as needed.
 
 - `color-black: 0 0% 3.9%`
 - `color-white: 0 0% 98%`
@@ -55,6 +77,8 @@ Design tokens should have intuitive and descriptive names that clearly indicate 
 - `color-gray-900: 0 0% 9%`
 
 ### Brand Colors
+
+Brand specific color tints and shades.
 
 - `color-red`
 - `color-green`
@@ -75,7 +99,19 @@ Pages, sections, elements and other background elements.
 - `background-success`
 - `background-info`
 - `background-disabled`
-
+- `background-hover`
+- `background-active`
+- `background-secondary`
+- `background-secondary-muted`
+- `background-secondary-inverse`
+- `background-secondary-error`
+- `background-secondary-warning`
+- `background-secondary-danger`
+- `background-secondary-success`
+- `background-secondary-info`
+- `background-secondary-disabled`
+- `background-secondary-hover`
+- `background-secondary-active`
   
 ### Foreground
 
@@ -90,6 +126,19 @@ Text, borders, cards and other foreground elements.
 - `foreground-success`
 - `foreground-info`
 - `foreground-disabled`
+- `foreground-hover`
+- `foreground-active`
+- `foreground-secondary`
+- `foreground-secondary-muted`
+- `foreground-secondary-inverse`
+- `foreground-secondary-error`
+- `foreground-secondary-warning`
+- `foreground-secondary-danger`
+- `foreground-secondary-success`
+- `foreground-secondary-info`
+- `foreground-secondary-disabled`
+- `foreground-secondary-hover`
+- `foreground-secondary-active`
 
 ### Link
 
@@ -133,6 +182,15 @@ Text, borders, cards and other foreground elements.
 
 - `border-color`
 - `border-color-muted`
+- `border-color-inverse`
+- `border-color-error`
+- `border-color-warning`
+- `border-color-danger`
+- `border-color-success`
+- `border-color-info`
+- `border-color-disabled`
+- `border-color-hover`
+- `border-color-active`
 
 ### Utility
 
@@ -288,11 +346,10 @@ Easing reference ([Epiceasing.com](https://epiceasing.com/)).
 ### Shadows
 
 - `shadow-none`
-- `shadow-sm`
-- `shadow-md`
-- `shadow-lg`
-- `shadow-xl`
-- `shadow-2xl`
+- `shadow-elevation-1`
+- `shadow-elevation-2`
+- `shadow-elevation-3`
+- `shadow-elevation-4`
 - ...
 
 
