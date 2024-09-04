@@ -1,6 +1,6 @@
 # Mega Design Token Guidelines
 
-Design tokens are standardized, reusable variables that store design decisions, such as colors, fonts, spacing, and other visual elements. These tokens help maintain consistency across a product or design system by ensuring that these elements are applied uniformly across different platforms and devices.
+Design tokens are standardized, reusable variables that store design decisions, such as colors, fonts, spacing, and other visual elements. These tokens help maintain consistency across a design system by ensuring that these elements are applied uniformly across different platforms and devices.
 
 ## Table Of Contents
 
@@ -27,16 +27,20 @@ Design tokens are standardized, reusable variables that store design decisions, 
 Design tokens should have intuitive and descriptive names that clearly indicate their purpose. To ensure consistency and clarity, we follow these naming guidelines:
 
 - **Naming Structure:** Use the format `{category}-{role}-{variant}-{modifier}`.
-- **Category:** Always include a category, such as `color`, `space`, `font`, or `button`.
-- **Role:** Define the role, such as `background`, `size`, or `radius`.
-- **Variant:** Optionally include a variant, such as `muted`, `inverse`, or `error`.
-- **Modifier:** Optionally include a state modifier, like `hover`, `active`, or `focus`.
+- **Category:** Always include a category, such as color, space, font, or button.
+- **Role:** Define the role, such as background, size, or radius, using a consistent set of terms.
+- **Variant:** Optionally include a variant, such as muted, inverse, or error. Omit this if not applicable.
+- **Modifier:** Optionally include a state modifier, like hover, active, or focus. Omit if not needed.
+- **Avoid Redundancy:** Keep names concise by avoiding repetitive terms.
+- **Multiple Modifiers:** When multiple modifiers are required, arrange them logically and consistently.
 
-### Examples
+By following these rules, we ensure that design tokens remain clear, scalable, and easy to maintain.
 
-- `color-black`
-- `button-background-muted-hover`
-- `font-size-lg`
+### Examples:
+- `background-secondary-muted`
+- `font-weight-bold`
+- `button-border-hover`
+  
 
 ## Design Token Usage
 
