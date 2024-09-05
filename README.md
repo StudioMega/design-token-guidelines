@@ -44,7 +44,7 @@ By following these rules, we ensure that design tokens remain clear, scalable, a
 
 ## Design Token Usage
 
-Not all design tokens will be necessary for every project, and you may need to introduce new ones. That's perfectly fine—just ensure that any additions adhere to the established naming conventions outlined above.
+Not all design tokens will be necessary for every project, and you may need to introduce new ones. That's perfectly fine—just ensure that any additions adhere to the [established naming conventions](#design-token-naming).
 
 ## Colors
 
